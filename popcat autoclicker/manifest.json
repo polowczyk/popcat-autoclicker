@@ -1,0 +1,12 @@
+{
+    "name": "Popcat Autoclicker",
+	"manifest_version": 2,
+    "version": "1.0",
+    "description": "polska gurom",
+    "permissions": ["tabs", "http://*/*"],
+    "content_scripts" : [{
+        "matches" : [ "https://popcat.click/*"],
+        "js" : ["unlocked.js"]
+    }],
+	"icons": { "128": "icon.png" }
+}
